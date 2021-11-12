@@ -40,7 +40,7 @@ export default function Button(props) {
                 className={className.join(" ")} 
                 style={props.style} 
                 target={props.target ==="_blank" ? "_blank" : undefined} 
-                rel={props.target ==="_blank" ? "noopener noreferer" : undefined}>
+                rel={props.target ==="_blank" ? "noopener noreferrer" : undefined}>
                     {props.children}
                 </a>
             )
@@ -49,7 +49,7 @@ export default function Button(props) {
                 <Link to={props.href} 
                 className={className.join(" ")} 
                 style={props.style} onClick={onClick}>
-                {props.children}
+                    {props.children}
                 </Link>
             )
         }
