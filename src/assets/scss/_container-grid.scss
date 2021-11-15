@@ -27,6 +27,11 @@
         &.column-4{
             grid-column-end: span 4;
         }
+        @media only screen and (max-width: 600px){
+            &.column-4{
+                grid-column-end: span 12;
+            }
+        }
         &.column-5{
             grid-column-end: span 5;
         }
@@ -58,11 +63,26 @@
         &.row-2{
             grid-row-end: span 2;
         }
+        @media only screen and (max-width: 600px){
+            &.row-2{
+                grid-row-end: span 1;
+            }
+        }
         &.row-3{
             grid-row-end: span 3;
         }
         &.row-4{
             grid-row-end: span 4;
         }
+    }
+}
+@media only screen and (max-width: 600px){
+    .container-grid{
+        &.overflow-x{
+            overflow-x: scroll;
+        }
+    }
+    .item-category{
+        width: 75vw;
     }
 }
