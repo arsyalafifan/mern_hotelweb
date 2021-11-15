@@ -3,9 +3,10 @@ import React from 'react';
 import Button from 'elements/Button'
 
 export default function Categories({ data }) {
-    return data.map((category, index1)=>{
+    return data.map((category, ke)=>{
+        console.log(ke)
         return (
-            <section className="container" key={`category ${index1 + 1}`}>
+            <section className="container" key={`category ${ke}`}>
                 <h4 className="mb-3 font-weight-medium">
                     {category.name}
                 </h4>
@@ -17,7 +18,7 @@ export default function Categories({ data }) {
                             </div>
                         </div> :
                         category.items.map((item, index2) => {
-                            return <div className="item item-category column-3 row-1" key={`category-${index1}-item-${index2}`}>
+                            return <div className="item item-category column-3 row-1" key={`category-${ke}-item-${index2}`}>
                                 <div className="card">
                                     {item.isPopular && (<div className="tag">
                                         Popular<span className="font-weight-light"> Choice</span>
