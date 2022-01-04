@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac3e20fe.chunk.css",
+    "main.js": "/static/js/main.3821707b.chunk.js",
+    "main.js.map": "/static/js/main.3821707b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3faa64c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3faa64c3.js.map",
+    "static/js/2.aa13622e.chunk.js": "/static/js/2.aa13622e.chunk.js",
+    "static/js/2.aa13622e.chunk.js.map": "/static/js/2.aa13622e.chunk.js.map",
+    "static/js/3.3d84e532.chunk.js": "/static/js/3.3d84e532.chunk.js",
+    "static/js/3.3d84e532.chunk.js.map": "/static/js/3.3d84e532.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ac3e20fe.chunk.css.map": "/static/css/main.ac3e20fe.chunk.css.map",
+    "static/js/2.aa13622e.chunk.js.LICENSE.txt": "/static/js/2.aa13622e.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Star.9f0d919b.svg",
+    "static/media/frame-testimony.b9866606.jpg": "/static/media/frame-testimony.b9866606.jpg",
+    "static/media/ic_cities.3d4f2d9a.svg": "/static/media/ic_cities.3d4f2d9a.svg",
+    "static/media/ic_traveler.418b7081.svg": "/static/media/ic_traveler.418b7081.svg",
+    "static/media/ic_treasure.8099e2c7.svg": "/static/media/ic_treasure.8099e2c7.svg",
+    "static/media/img-hero-frame.3e750bf1.jpg": "/static/media/img-hero-frame.3e750bf1.jpg",
+    "static/media/img-hero.4b4f3ef2.jpg": "/static/media/img-hero.4b4f3ef2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3faa64c3.js",
+    "static/js/2.aa13622e.chunk.js",
+    "static/css/main.ac3e20fe.chunk.css",
+    "static/js/main.3821707b.chunk.js"
+  ]
+}
